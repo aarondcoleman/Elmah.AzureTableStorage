@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Elmah.AzureTableStorage.Fitabase</id>
+    <version>3.0.3$buildNumber$</version>
+    <title>Elmah.AzureTableStorage.Fitabase</title>
+    <authors>MisinformedDNA, Aaron Coleman</authors>
+    <owners>Fitabase</owners>
+    <licenseUrl>https://github.com/MisinformedDNA/Elmah.AzureTableStorage/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/MisinformedDNA/Elmah.AzureTableStorage</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Storing Elmah logs on Azure Table Storage modified for Fitabase needs</description>
+    <copyright>Copyright 2014</copyright>
+    <tags>elmah azure</tags>
+    <releaseNotes></releaseNotes>
+	<dependencies>
+	    <dependency id="elmah" version="1.2.2"/>
+		<dependency id="elmah.corelibrary" version="1.2.2"/>
+		<dependency id="Microsoft.Data.Edm" version="5.6.0" />
+		<dependency id="Microsoft.Data.OData" version="5.6.0" />
+		<dependency id="Newtonsoft.Json" version="5.0.8" />
+		<dependency id="System.Spatial" version="5.6.0"/>
+		<dependency id="WindowsAzure.Storage" version="3.0.3.0" />
+		<dependency id="Microsoft.WindowsAzure.ConfigurationManager" version="2.0.3"/>
+		<dependency id="Microsoft.Data.Services.Client" version="5.6.0"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="$buildOutputPath$\Elmah.AzureTableStorage.dll" target="lib\net451\Elmah.AzureTableStorage.dll" exclude="" />
+	<file src="$buildOutputPath$\Elmah.AzureTableStorage.pdb" target="lib\net451\Elmah.AzureTableStorage.pdb" exclude="" />
+  </files>
+</package>
