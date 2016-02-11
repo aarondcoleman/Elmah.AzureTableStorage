@@ -1,4 +1,5 @@
-﻿using Microsoft.WindowsAzure;
+﻿using Microsoft.Azure;
+using Microsoft.WindowsAzure;
 using System;
 using System.Collections;
 using System.Configuration;
